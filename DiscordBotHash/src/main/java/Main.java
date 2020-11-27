@@ -396,7 +396,7 @@ public class Main extends ListenerAdapter{
                 event.getChannel().sendMessage(eb.build()).queue();
 
             } else if (message.getContentRaw().startsWith(prefix + "8ball") || message.getContentRaw().startsWith(prefix + " 8ball")) {
-                boolean cA = (message.getContentRaw().contains("9636")||message.getContentRaw().contains("henny"));
+                boolean cA = (message.getContentRaw().contains("9636"));
                 boolean neg = contains(NWord,message);
                 boolean bW = contains(BWord,message);
                 boolean pos = contains(PosWord,message);
